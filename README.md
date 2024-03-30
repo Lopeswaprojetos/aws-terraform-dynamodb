@@ -25,7 +25,9 @@ read_capacity: As unidades de capacidade de leitura para a tabela DynamoDB (padr
 write_capacity: As unidades de capacidade de gravação para a tabela DynamoDB (padrão: 5).
 hash_key: O atributo a ser usado como chave de hash (padrão: "UserId").
 range_key: O atributo a ser usado como chave de intervalo (padrão: "GameTitle").
-  ##Uso
+ 
+
+ ##Uso
 Execute terraform plan para ver as alterações planejadas antes de aplicar.
 Execute terraform apply para criar a tabela DynamoDB.
 
